@@ -1,11 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather Dashboard</title>
-</head>
+
+
+<html>
+
 <body>
-    
+<h1>Weather data API </h1>
+
+<form onsubmit="callAPI(event)">
+<input id="country" name="country" placeholder="Enter the country/city name" />
+<button type="submit">Search</button>
+</form>
+
+
+<div>
+<h1>Today</h1>
+<p>City Name: <span id="cityEl"></span></p>
+<p>Weather: <span id="weather"></span></p>
+<p>Temprature: <span id="temp"></span></p>
+<p><img id="iconEl" src="" /></p>
+
+
+</div>
+<div id="forecastsEl">
+
+</div>
+
+
+<script src="script.js"></script>
+
 </body>
 </html>
