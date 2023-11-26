@@ -2,7 +2,7 @@
 function callAPI(e){
     e.preventDefault()
     let city=e.target.country.value
-  fetch("https://api.openweathermap.org/data/2.5/forecast?q="+city+"&appid=API&units=metric")
+  fetch("https://api.openweathermap.org/data/2.5/forecast?q="+city+"617296c3e23d4dbf924a899ffb674899")
 .then(res=>res.json())
 .then(data=> {
 
