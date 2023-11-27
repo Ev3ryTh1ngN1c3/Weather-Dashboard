@@ -1,4 +1,7 @@
 var cityEl = document.getElementById('cityEl');
+var datetimeEl = document.getElementById('datetime');
+var humidityEl = document.getElementById('humidity');
+var windspeedEl = document.getElementById('windspeed');
 
 function check() {
     var date = document.getElementById("date").value;
@@ -13,13 +16,15 @@ function callAPI(e) {
         .then(res => res.json())
         .then(data => {
 
-            console.log(data)
             let today = data.list[0]
             const now = new Date();
             const currentDateTime = now.toLocaleString();
-
+console.log(today)
             cityEl.innerText = city
+            datetimeEl.innerText = currentDateTime
+            humidityEl.innerText = today.main.humidity
             weather.innerText = today.weather[0].description
+            windspeedEl.innerText = today.wind.speed
 
             temp.innerText = today.main.temp
             iconEl.src = "http://openweathermap.org/img/w/" + today.weather[0].icon + ".png";
@@ -29,7 +34,7 @@ function callAPI(e) {
                 let day = data.list[i];
                 let we = day.weather[0].description
                 let temp = day.main.temp
-                console.log(day.wind.speed)
+              
 
                 let src = "http://openweathermap.org/img/w/" + today.weather[0].icon + ".png";
                 div.innerHTML = `
