@@ -7,4 +7,10 @@ The solution for this challenge is a 5 Day Weather Forecast link to an external 
 and retrieve weather data for varies cities.
 I learned about API keys.
 This project was collaborated with my tutors, Omaran Bazna, Juno Ngufen & Mateo Wallace.
+
+
+
+
+
+
 ![Weather Dashboard](https://github.com/Ev3ryTh1ngN1c3/Weather-Dashboard/assets/143395934/dca7c42a-1b3f-4e3a-bd9c-d1926118591d)
