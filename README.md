@@ -6,4 +6,15 @@ and feature updated HTML and CSS.
 The solution for this challenge is a 5 Day Weather Forecast link to an external site 
 and retrieve weather data for varies cities.
 I learned about API keys.
+<<<<<<< HEAD
 This project was collaborated with my tutors, Omaran Bazna, Juno Ngufen & Mateo Wallace.stle
+=======
+This project was collaborated with my tutors, Omaran Bazna, Juno Ngufen & Mateo Wallace.
+
+
+
+
+
+
+![Weather Dashboard](https://github.com/Ev3ryTh1ngN1c3/Weather-Dashboard/assets/143395934/dca7c42a-1b3f-4e3a-bd9c-d1926118591d)
+>>>>>>> 382b2faa5bec4d42d1502b324a5fe1d3c4791233
