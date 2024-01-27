@@ -1,40 +1,39 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="stylesheet" href="./style.css">
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
 <body>
-<h1>Weather Dashboard</h1>
+    <h1>Weather Dashboard</h1>
+    <h2>Search for a City :</h2>
 
-<form onsubmit="callAPI(event)">
-<input id="country" name="country" placeholder="Enter the country/city name" />
-<button type="submit">Search</button>
-</form>
-
-
-<div>
-<h1>Today</h1>
-<p>Date & Time: <span id="datetime"></span></p>
-<p>City Name: <span id="cityEl"></span></p>
-<p>Weather: <span id="weather"></span></p>
-<p>Temprature: <span id="temp"></span></p>
-<p>Humidity: <span id="humidity"></span></p>
-<p>Wind Speed: <span id="windspeed"></span></p>
-<p><img id="iconEl" src="" /></p>
+    <form onsubmit="callAPI(event)">
+        <input id="country" name="country" placeholder="Enter the country/city name" />
+        <button type="submit">Search</button>
+    </form>
 
 
-</div>
-<div id="forecastsEl" class="flex">
+    <div>
+        <h2><span id="cityEl"></span> (<span id="datetime"></span>) <img id="iconEl" src="iconE1.src" /></h2>
+        <p>Weather : <span id="weather"></span></p>
+        <p>Temperature : <span id="temp"></span></p>
+        <p>Humidity : <span id="humidity"></span></p>
+        <p>Wind Speed : <span id="windspeed"></span></p>
 
-</div>
+
+    </div>
+    <div id="forecastsEl" class="flex">
+
+    </div>
 
 
-<script src="script.js"></script>
+    <script src="script.js"></script>
 
 </body>
+
 </html>

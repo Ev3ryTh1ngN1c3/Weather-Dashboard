@@ -6,4 +6,4 @@ and feature updated HTML and CSS.
 The solution for this challenge is a 5 Day Weather Forecast link to an external site 
 and retrieve weather data for varies cities.
 I learned about API keys.
-This project was collaborated with my tutors, Omaran Bazna, Juno Ngufen & Mateo Wallace.
+This project was collaborated with my tutors, Omaran Bazna, Juno Ngufen & Mateo Wallace.stle
